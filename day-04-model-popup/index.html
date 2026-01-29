@@ -1,22 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Day 4 - Modal Popup</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8">
+        <title>Day 4: popup</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <button id="openModel">open model</button>
 
-  <button id="openModal">Open Modal</button>
+        <div class="model-overlay" id="modalOverlay">
+            <div class="model">
+                      <span class="close-btn" id="closeModal">&times;</span>
+                      <h2>Hello 👋</h2>
+                      <p>This is a simple modal popup.</p>
+            </div>
+        </div>
 
-  <div class="modal-overlay" id="modalOverlay">
-    <div class="modal">
-      <span class="close-btn" id="closeModal">&times;</span>
-      <h2>Hello 👋</h2>
-      <p>This is a simple modal popup.</p>
-    </div>
-  </div>
-
-  <script src="script.js"></script>
-</body>
+        <script src="script.js"></script>
+    </body>
 </html>
