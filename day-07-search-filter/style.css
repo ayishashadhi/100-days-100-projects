@@ -1,0 +1,22 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+}
+
+.container {
+  width: 300px;
+  margin: 100px auto;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+li {
+  list-style: none;
+  padding: 8px;
+  background: white;
+  margin-bottom: 5px;
+}
